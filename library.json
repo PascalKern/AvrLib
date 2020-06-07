@@ -1,0 +1,31 @@
+{
+	"name": "AvrLib-fork",
+	"version": "latest",
+	"repository":
+	{
+	    "type": "git",
+	    "url": "https://github.com/PascalKern/AvrLib"
+	},
+	"authors":
+	[
+	    {
+	        "name": "Pascal Kern",
+	        "email": "tm.kern@icloud.com",
+	        "url": "https://github.com/PascalKern",
+	        "maintainer": true
+	    }
+	],
+	"export": {
+	    "include":
+	    [
+	        "src/*.[ch]pp",
+	        "inc/*/*.hpp"
+	    ],
+		"exclude":
+		[
+			"codegen"
+		]
+	},
+	"frameworks": "arduino",
+    "platforms": "atmelavr"
+}
