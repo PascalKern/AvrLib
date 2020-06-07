@@ -1,6 +1,6 @@
 {
 	"name": "AvrLib-fork",
-	"version": "0.0.1-latest",
+	"version": "0.0.1+latest",
 	"repository":
 	{
 	    "type": "git",
