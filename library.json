@@ -18,7 +18,7 @@
         "url": "https://github.com/PascalKern/AvrLib"
     },
     "includeDir":"inc",
-    "srcDir":"src,"
+    "srcDir":"src",
     "export": {
         "include":
         [
