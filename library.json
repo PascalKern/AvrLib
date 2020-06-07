@@ -6,15 +6,8 @@
 	    "type": "git",
 	    "url": "https://github.com/PascalKern/AvrLib"
 	},
-	"authors":
-	[
-	    {
-	        "name": "Pascal Kern",
-	        "email": "tm.kern@icloud.com",
-	        "url": "https://github.com/PascalKern",
-	        "maintainer": true
-	    }
-	],
+	"keywords": "AvrLib, Arduino, c14, HAL, AVR",
+	"desription": "Highly type-safe modern C++ library for AVR as library for PlatformIO",
 	"export": {
 	    "include":
 	    [
