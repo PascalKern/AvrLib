@@ -1,11 +1,5 @@
 {
     "name": "AvrLib-fork",
-    "version": "0.0.1+latest",
-    "repository":
-    {
-        "type": "git",
-        "url": "https://github.com/PascalKern/AvrLib"
-    },
     "keywords": "AvrLib, Arduino, c14, HAL, AVR",
     "description": "Highly type-safe modern C++ library for AVR as library for PlatformIO",
     "authors":
@@ -17,6 +11,12 @@
             "maintainer": true
         }
     ],
+    "version": "0.0.1+latest",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/PascalKern/AvrLib"
+    },
     "export": {
         "include":
         [
