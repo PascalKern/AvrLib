@@ -1,33 +1,33 @@
 {
-	"name": "AvrLib-fork",
-	"version": "0.0.1+latest",
-	"repository":
-	{
-	    "type": "git",
-	    "url": "https://github.com/PascalKern/AvrLib"
-	},
-	"keywords": "AvrLib, Arduino, c14, HAL, AVR",
-	"desription": "Highly type-safe modern C++ library for AVR as library for PlatformIO",
-	"authors":
-	[
-	    {
-	        "name": "Pascal Kern",
-	        "email": "tm.kern@icloud.com",
-	        "url": "https://github.com/PascalKern",
-	        "maintainer": true
-	    }
-	],
-	"export": {
-	    "include":
-	    [
-	        "src/*.[ch]pp",
-	        "inc/*/*.hpp"
-	    ],
-		"exclude":
-		[
-			"codegen"
-		]
-	},
-	"frameworks": "arduino",
+    "name": "AvrLib-fork",
+    "version": "0.0.1+latest",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/PascalKern/AvrLib"
+    },
+    "keywords": "AvrLib, Arduino, c14, HAL, AVR",
+    "description": "Highly type-safe modern C++ library for AVR as library for PlatformIO",
+    "authors":
+    [
+        {
+            "name": "Pascal Kern",
+            "email": "tm.kern@icloud.com",
+            "url": "https://github.com/PascalKern",
+            "maintainer": true
+        }
+    ],
+    "export": {
+        "include":
+        [
+            "src/*.[ch]pp",
+            "inc/*/*.hpp"
+        ],
+        "exclude":
+        [
+            "codegen"
+        ]
+    },
+    "frameworks": "arduino",
     "platforms": "atmelavr"
 }
